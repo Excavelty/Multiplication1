@@ -9,7 +9,7 @@ function setupCalc()//funckja setup
 let fastHandle = object => {return document.getElementById(object)};//funkcja strzałkowa zwracająca "uchwyt" do
 //danego elementu
 
-let convToStr = number => {return number.toString()};//funkcja strzałkowa skracająca zapis konwersji toString
+let convToStr = number => {return number.toString()};//funkcja strzałkowa z konwersją toString
 
 let displayResult = result => {//funkcja strzałkowa wyświetlająca działania i wynik w textarea
     
